@@ -3,6 +3,7 @@ n, m = map(int, input().split())
 dx = [1, 0, -1, 0]
 dy = [0, 1, 0, -1]
 
+
 a = [[0] for _ in range(n)]
 for i in range(n):
 	a[i] = list(map(int, input().split()))
